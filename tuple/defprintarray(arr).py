@@ -3,7 +3,8 @@ def printarray(arr,arr1,arr2,arr3):
 
 def variablearg(*var):
     print("length of arguments are:",len(var))
-    print(var[0])
+    print(var[0:3])
+   
 
 
 
@@ -24,6 +25,6 @@ print(type(z))
 print(type(v))
 
 
-variablearg(x,y)
+variablearg(z,x,y)
 
 
