@@ -1,3 +1,4 @@
-x=[2,5,4,6,7]
-print(set(x))
-print(type(x))
+x=[2,5,4,6,9]
+y=set(x)
+print(y)
+print(type(y))

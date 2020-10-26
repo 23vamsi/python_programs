@@ -1,5 +1,5 @@
 x=[]
-if(x[0]==[]):
-    print("empty")
+if(len(x)==0):
+    print("empty list")
 else:
-    print("not empty")    
+    print("not an empty list")    
